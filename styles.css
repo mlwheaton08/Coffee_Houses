@@ -1,0 +1,25 @@
+body {
+    margin: 0 400px;
+}
+
+.pageHeader {
+    text-align: center;
+    margin: 20px;
+    border-bottom: 2px solid blue;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop {
+    border: 1px solid grey;
+    width: 300px;
+    padding: 3px 0 3px 3px;
+}
+
+.x {
+    margin-left: 100px;
+}
