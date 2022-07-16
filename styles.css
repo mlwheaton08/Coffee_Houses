@@ -1,11 +1,15 @@
 body {
     margin: 0 400px;
+    color: #3b3a3a;
+    background-color: #fcfcf5;
 }
 
 .pageHeader {
     text-align: center;
+    font-size: 35px;
     margin: 20px;
-    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    border-bottom: 3px solid grey;
 }
 
 .list {
@@ -15,9 +19,16 @@ body {
 }
 
 .shop {
-    border: 1px solid grey;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
     width: 300px;
     padding: 3px 0 3px 3px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.shop:hover {
+    background-color: #ededed;
 }
 
 .x {
